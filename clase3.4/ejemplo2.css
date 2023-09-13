@@ -1,0 +1,22 @@
+h1{
+    color:blue;/*Color Tipografia*/
+    background-color: rgb(241, 87, 15);/*color fondo*/
+    text-transform: uppercase;/*Mayuscula*/
+    text-align: center;/*centrar Tipografia*/
+}
+
+h2{
+    color: rgb(78, 3, 139);
+    text-align: center;
+}
+
+p{
+    color: rgb(40, 199, 8);
+    font-family: Arial;/*Tipo de tipografia*/
+    line-height: 22px;/*Separacion entre renglones*/
+}
+
+.destacados{
+    color: chocolate;/*class. para especificar un estilo*/
+    /*span. para separar una parte del texo especifica*/
+}
