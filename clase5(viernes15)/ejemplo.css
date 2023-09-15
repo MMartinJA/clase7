@@ -1,0 +1,29 @@
+#rojo{
+    background-color: red;/*color del fondo*/
+    width: 250px;/*ancho*/
+    /*height: 400px; (Altura)*/
+    padding: 20px;/*Espacio desde el texo hasta la caja*/
+    border: 5px inset black;/*borde de la caja*/
+    box-sizing: border-box; /*acomoda el diseño de la casa para mantenerce en el ancho anteriormente especificado */
+
+}
+#azul{
+    background-color: blue;
+    width: 250px;
+    color: aliceblue;/*Color de la tipografia*/
+    margin: 20px;
+
+}
+
+/* "Los ordenes de los px va en el sentido de las agujas del relog"
+
+margin: 5px 10px 15px 20px; 
+
+margin: 5px 10px 20px; ("5px y 20px arriba y abajo", "10px ancho")
+
+margin: 5px 10px; ("5px eje y", "10px eje x")
+
+margin: 20px; 
+
+*/
+

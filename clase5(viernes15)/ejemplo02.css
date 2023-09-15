@@ -1,0 +1,25 @@
+.caja{
+    background-color: darkorange;
+    width: 50%;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0 0 10px black ; /*sombra de la caja*/
+    /*N1 ele x - N2 eje y - N3 desenfoque - N4 color*/
+    border: 3px solid white;
+    border-radius: 20px;/*bordes/esquinas de la caja*/
+    border-radius: 0 20px;
+
+}
+
+.textos{
+    background-color: yellow;
+    column-count: 3; /*dividir texto en columnas*/
+    column-gap: 60px;/*distancia de separacion entre columnas*/
+    column-rule: 1px solid black ;/* lines antre columnas*/
+
+}
+
+.textos p{
+    margin: 0;
+    
+}
