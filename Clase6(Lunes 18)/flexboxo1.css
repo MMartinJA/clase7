@@ -1,0 +1,15 @@
+.contenedor{
+    background-color: gray;
+    /*display: flex;/* filas a lo ancho de la pagina(distribuje el contenido de la pagina en el eje X)*/
+    display: inline-flex;/*respeta el ancho del contenido*/
+    /*flex-direction: row-reverse;*/
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
