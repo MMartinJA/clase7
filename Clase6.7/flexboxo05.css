@@ -1,0 +1,29 @@
+.contenedor{
+    background-color: gray;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;/*por defecto*/
+    align-items: flex-end;
+    align-items: center;
+    /*align-items: stretch;*/
+}
+
+.item{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;/*eje Y*/
+    justify-content: center;/*eje X*/
+}
+
+/*
+posicionamiento
+
+o
+
+text-aling
+line-height
+
+*/
