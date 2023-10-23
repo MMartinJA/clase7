@@ -2,6 +2,8 @@
     padding: 20px;
     border-radius: 5px;
     border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .alternar{
@@ -9,6 +11,6 @@
 }
 
 /*esta clase aca de activo se va a manejar por js > classList*/
-.alternar .activo{
+.alternar.activo{
     background-color: blue;
 }
