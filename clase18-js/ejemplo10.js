@@ -24,7 +24,7 @@ const empleados = [
 
 //metodo array¿? > que solo me muestre los desarrolladores
 
-const desarr = empleados.filter(empleados => empleados.trabajo === 'desarrollador')
+const desarr = empleados.filter(empleados => empleados.trabajo != 'desarrollador')
 
 console.log(desarr);
 
