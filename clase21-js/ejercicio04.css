@@ -1,0 +1,19 @@
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid beige;
+    display: inline-flex;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
